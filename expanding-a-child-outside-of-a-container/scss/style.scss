@@ -4,12 +4,15 @@
 	box-sizing: border-box;
 }
 
+body, html{
+	overflow-x: hidden;
+}
+
 body {
 	background-color: #333;
 	color: #fff;
 	font-family: Roboto;
 	font-size: 16px;
-	overflow-x: hidden;
 }
 
 h1 {
