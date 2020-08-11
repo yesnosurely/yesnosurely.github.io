@@ -36,30 +36,6 @@ body {
   margin: 0 -10px;
 }
 
-.block__row:nth-child(1) .block__item:first-child::before {
-  background-color: #CE82B5;
-}
-
-.block__row:nth-child(1) .block__item:last-child::before {
-  background-color: #ED4D38;
-}
-
-.block__row:nth-child(2) .block__item:first-child::before {
-  background-color: #F1B82F;
-}
-
-.block__row:nth-child(2) .block__item:last-child::before {
-  background-color: #0EC3F5;
-}
-
-.block__row:nth-child(3) .block__item:first-child::before {
-  background-color: #43AEE7;
-}
-
-.block__row:nth-child(3) .block__item:last-child::before {
-  background-color: #EF7F1A;
-}
-
 .block__item {
   position: relative;
   height: 150px;
@@ -86,6 +62,30 @@ body {
   z-index: -1;
   -webkit-animation: numBg 5s ease forwards;
           animation: numBg 5s ease forwards;
+}
+
+.block__item:nth-child(1)::before {
+  background-color: #CE82B5;
+}
+
+.block__item:nth-child(2)::before {
+  background-color: #ED4D38;
+}
+
+.block__item:nth-child(3)::before {
+  background-color: #F1B82F;
+}
+
+.block__item:nth-child(4)::before {
+  background-color: #0EC3F5;
+}
+
+.block__item:nth-child(5)::before {
+  background-color: #43AEE7;
+}
+
+.block__item:nth-child(6)::before {
+  background-color: #EF7F1A;
 }
 
 @-webkit-keyframes numBg {
