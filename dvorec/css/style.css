@@ -119,8 +119,8 @@ body {
   width: 0;
   height: 100%;
   z-index: -1;
-  -webkit-animation: numBg 2s ease forwards;
-          animation: numBg 2s ease forwards;
+  -webkit-animation: numBg 3s ease forwards;
+          animation: numBg 3s ease forwards;
 }
 
 @-webkit-keyframes numBg {
