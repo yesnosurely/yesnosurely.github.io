@@ -113,5 +113,17 @@ body{
 	}
 	&__text{
 		font-size: 24px;
+		opacity: 0;
+		animation: textOpacity 2s 1s ease forwards;
 	}
+
+	@keyframes textOpacity {
+		from{
+			opacity: 0;
+		}
+		to{
+			opacity: 1;
+		}
+	}
+
 }
