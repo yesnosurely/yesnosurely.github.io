@@ -32,13 +32,11 @@ body{
 				// max-width: 480px;
 				&::before{
 					background-color: #CE82B5;
-					animation-delay: .1s;
 				}
 			}
 			.block__item:last-child{
 				&::before{
 					background-color: #ED4D38;
-					animation-delay: .15s;
 				}
 			}
 		}
@@ -47,13 +45,11 @@ body{
 				// max-width: 580px;
 				&::before{
 					background-color: #F1B82F;
-					animation-delay: .2s;
 				}
 			}
 			.block__item:last-child{
 				&::before{
 					background-color: #0EC3F5;
-					animation-delay: .25s;
 				}
 			}
 		}
@@ -62,13 +58,11 @@ body{
 				// max-width: 780px;
 				&::before{
 					background-color: #43AEE7;
-					animation-delay: .3s;
 				}
 			}
 			.block__item:last-child{
 				&::before{
 					background-color: #EF7F1A;
-					animation-delay: .35s;
 				}
 			}
 		}

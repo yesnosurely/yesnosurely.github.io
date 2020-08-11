@@ -38,38 +38,26 @@ body {
 
 .block__row:nth-child(1) .block__item:first-child::before {
   background-color: #CE82B5;
-  -webkit-animation-delay: .1s;
-          animation-delay: .1s;
 }
 
 .block__row:nth-child(1) .block__item:last-child::before {
   background-color: #ED4D38;
-  -webkit-animation-delay: .15s;
-          animation-delay: .15s;
 }
 
 .block__row:nth-child(2) .block__item:first-child::before {
   background-color: #F1B82F;
-  -webkit-animation-delay: .2s;
-          animation-delay: .2s;
 }
 
 .block__row:nth-child(2) .block__item:last-child::before {
   background-color: #0EC3F5;
-  -webkit-animation-delay: .25s;
-          animation-delay: .25s;
 }
 
 .block__row:nth-child(3) .block__item:first-child::before {
   background-color: #43AEE7;
-  -webkit-animation-delay: .3s;
-          animation-delay: .3s;
 }
 
 .block__row:nth-child(3) .block__item:last-child::before {
   background-color: #EF7F1A;
-  -webkit-animation-delay: .35s;
-          animation-delay: .35s;
 }
 
 .block__item {
