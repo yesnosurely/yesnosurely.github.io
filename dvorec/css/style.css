@@ -33,6 +33,7 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin: 0 -10px;
 }
 
 .block__row:nth-child(1) .block__item:first-child::before {

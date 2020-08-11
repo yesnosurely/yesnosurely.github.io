@@ -26,6 +26,7 @@ body{
 	&__row{
 		display: flex;
 		flex-wrap: wrap;
+		margin: 0 -10px;
 		&:nth-child(1){
 			.block__item:first-child{
 				// max-width: 480px;
