@@ -92,7 +92,7 @@ body{
 			width: 0;
 			height: 100%;
 			z-index: -1;
-			animation: numBg 3s ease forwards;
+			animation: numBg 5s ease forwards;
 		}
 	}
 
@@ -114,7 +114,7 @@ body{
 	&__text{
 		font-size: 24px;
 		opacity: 0;
-		animation: textOpacity 2s 1s ease forwards;
+		animation: textOpacity 2s 3s ease forwards;
 	}
 
 	@keyframes textOpacity {
