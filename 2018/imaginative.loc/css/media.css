@@ -1,0 +1,126 @@
+@media only screen and (max-width:480px) {
+    .search {
+        width: 85%;
+    }
+    .search input {
+        width: 190px;
+    }
+    .topBar {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        height: 50px;
+        margin: 10px;
+    }
+    .logo-search-wrap {
+        justify-content: space-between;
+    }
+
+    .latestBlog,
+    .coDetails,
+    .contactUs {
+        height: 100%;
+        width: 100%;
+        ;
+    }
+    .copy {
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width:630px) {
+    .logo-search-wrap {
+        flex-direction: column;
+    }
+    .logo,
+    .search {
+        margin: 10px;
+    }
+    .slider-wrap {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    header {
+        min-height: 100%;
+    }
+    .logo,
+    .search {
+        margin: 10px;
+    }
+    nav {
+        margin-top: 0px;
+        height: 100%;
+        text-align: center;
+        border-radius: 0;
+        display: none;
+    }
+    nav ul li {
+        display: block;
+    }
+    .menu-toggler {
+        width: 100%;
+        height: 50px;
+        background: #97455f;
+        border: 0;
+        padding: 0 10px 0 10px;
+        font-size: 14px;
+        color: #fff;
+    }
+    .slider-wrap {
+        top: 0;
+    }
+    .banner {
+        display: none;
+    }
+
+    .latestBlog,
+    .coDetails,
+    .contactUs {
+        margin: 15px;
+    }
+
+}
+
+@media only screen and (min-width:768px) {
+    .menu-toggler {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:940px) {
+    .header-wrap,
+    header {
+        min-height: 100%;
+    }
+    .slider {
+        padding: 0;
+        max-width: 100%;
+        height: 100%;
+    }
+    .slider-wrap {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        margin-bottom: 30px;
+    }
+    .owl-dots {
+        display: none;
+    }
+    main {
+        margin-top: 15px;
+    }
+    .section-wrap-little {
+        justify-content: space-around;
+    }
+    .section-wrap-little section {
+        margin-top: 15px;
+    }
+    .section-wrap-big {
+        justify-content: space-around;
+        margin-bottom: 15px;
+    }
+    .section-wrap-big section {
+        margin: 15px;
+    }
+}

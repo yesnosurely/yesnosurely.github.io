@@ -1,0 +1,61 @@
+.logo,
+.someClass section article,
+.someClass2 atricle,
+footer article,
+.copy p,
+.copy span,
+.slide img {
+    display: inline-block;
+}
+
+.slide span {
+    float: left;
+    margin-top: 15%;
+}
+
+nav,
+.slide img{
+    float: right;
+}
+
+@media only screen and (max-width:950px) {
+    .slider{
+        display: none;
+    }
+}
+
+header::after,
+footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.menu-toggler {
+    float: right;
+}
+
+.someClass section,
+.someClass2 section {
+    text-align: center;
+    vertical-align: middle;
+}
+
+footer {
+    padding: 20px 0;
+}
+
+footer article {
+    float: left;
+    margin: 7px;
+}
+
+footer .a4 input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #989898;
+    font: 15px Comfortaa;
+}
+
+.copy span {
+    float: right;
+}

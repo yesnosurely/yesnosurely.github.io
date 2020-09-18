@@ -1,0 +1,75 @@
+@media only screen and (max-width:920px) {
+    .someClass section,
+    .someClass2 section,
+    footer {
+        justify-content: space-around;
+    }
+    .someClass article,
+    .someClass2 atricle,
+    footer article {
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    header {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:763px) {
+    .slider {
+        display: none;
+    }
+    .someClass section {
+        margin: 20px 0;
+    }
+    header {
+        padding: 10px;
+    }
+    nav ul li a {
+        padding: 0 10px;
+    }
+    .submenu {
+        left: -32px;
+    }
+}
+
+@media only screen and (max-width:540px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    nav {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 5px;
+        width: 150px;
+        height: 100%;
+        background-color: #333;
+        z-index: 2;
+        text-align: center;
+        padding: 10px;
+    }
+    .submenu {
+        top: 0px;
+        left: 160px;
+        border-radius: 0 10px 10px 0;
+        z-index: 999;
+    }
+    .dropdown {
+        width: 100%;
+    }
+    nav ul li:last-child a {
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (min-width:540px) {
+    .menu-toggler {
+        display: none;
+    }
+}
